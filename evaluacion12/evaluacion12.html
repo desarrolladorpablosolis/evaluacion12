@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TECNOINNOVA</title>
+	<meta charset="utf-8"> <!--para que lo vizualice en cualquier idioma -->
+	<!--CSS de BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!--CSS propio-->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<!--googlefonts-->
+	<link rel='preconnect' href="https://fonts.googleapis.com">
+    <link rel='preconnect' href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Zen+Dots & display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!--JS BOOTSTRAP-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--JS propio-->
+	<script src="js/unidad7.js"></script> <!--vinculiza con un arcvhivo de javascript externo-->
+
+
+</head>
+<body>  <section id="inicio"></section>
+		<header >
+			<div id="direccion">
+				<p>Av. Rivadavia 3456, 
+				   CABA,Argentina</p>
+			</div>
+			<div id="logo"></div>
+			<div id="idioma">
+				<h1>idioma:español</h1>
+			</div>
+
+			<nav id="botonera">
+				<ul >
+					<li><a href="#inicio">INICIO</a></li>
+					<li><a href="#seccion1">NOVEDADES</a></li>
+					<li><a href="#seccion2">RUBROS</a></li>
+					<li><a href="#seccion3">EMPRESAS</a></li>
+					<li><a href="#seccion4">TEDx</a></li>
+
+					<li><a href="#contacto">CONTACTO</a></li>
+				</ul>
+
+			</nav> 
+		</header>
+		<section id="seccion1"> 
+			<div id="cajainterna_1">
+				<h1>¿Quienes somos?</h1>
+				<p>TECNOINNOVA es una pagina dedicada a la divulgacion de novedades tecnologias en todos los rubros y areas, trayendole a la comunidad las noticias de los ultimos avances en tecnologia.</p>
+			</div>
+			<div id="cajainterna_2">
+				<h1>NOTICIA DE LA SEMANA</h1>
+				<p>ENLACE DE IMAGEN A UNA UNA PAGINA WEB</p>
+			</div>
+			<div id="cajainterna_3">
+				<h1>¿SABIAS QUE?</h1>
+				<p>BREBE TEXTO Y UNA IMAGEN CON LA HISTORIA DE UN AVANCE TECNOLOGICO IMPORTANTE</p>
+			</div>
+		</section>
+		<section id="seccion2">
+			<div id="contenedor1">
+			<!--INICIOCARRUCEL-->
+						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+			  <div class="carousel-indicators">
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img src="imagenes/ELECTRONICA.jpg" class="d-block w-100" alt="..." class="img-fluid">
+			      <div class="carousel-caption d-none d-md-block bgtransparente">
+			        <h5>ELECTRONICA</h5>
+			        <p>Las empresas mas destacadas del 2022 del area de electronica</p>
+			        <a href="#">Ver empresas</a>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="imagenes/IC.jpg" class="d-block w-100" alt="...">
+			      <div class="carousel-caption d-none d-md-block bgtransparente">
+			        <h5>INTERNET DE LAS COSAS</h5>
+			        <p>Las emrpesas pioneras en el uso de este nuevo sistema que llego para quedarce.</p>
+			        <a href="#">Ver empresas</a>
+			      </div>
+			    </div>
+			    <div class="carousel-item">
+			      <img src="imagenes/gaming.jpg" class="d-block w-100" alt="...">
+			      <div class="carousel-caption d-none d-md-block bgtransparente">
+			        <h5>GAMING</h5>
+			        <p>El nuevo estilo de vida acompañado de las empresas mas relevantes del mercado.</p>
+			        <a href="#">Ver empresas</a>
+			      </div>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+			<!--FINCARRUCEL-->
+		    </div>
+		</section>
+		<section id="seccion3">
+			<div id="titulo"><h1>LAS EMPRESAS MAS RELEVANTES DEL 2022</h1></div><!--GRILLA ALFABETO-->
+			<div id="A"><h1><a href="#EA" onclick="mostrarTxtA()">A</a></h1></div>
+			<div id="B"><h1><a href="#EB" onclick="mostrarTxtB()">B</a></h1></div>
+			<div id="C"><h1><a href="#EC" onclick="mostrarTxtC()">C</a></h1></div>
+			<div id="D"><h1><a href="#ED" onclick="mostrarTxtD()">D</a></h1></div>
+			<div id="E"><h1><a href="#EE" onclick="mostrarTxtE()">E</a></h1></div>
+			<div id="F"><h1><a href="#EF" onclick="mostrarTxtF()">F</a></h1></div>
+			<div id="G"><h1><a href="#EG" onclick="mostrarTxtG()">G</a></h1></div>
+			<div id="H"><h1><a href="#EH" onclick="mostrarTxtH()">H</a></h1></div>
+			<div id="I"><h1><a href="#EI" onclick="mostrarTxtI()">I</a></h1></div>
+			<div id="J"><h1><a href="#EJ" onclick="mostrarTxtJ()">J</a></h1></div>
+			<div id="K"><h1><a href="#EK" onclick="mostrarTxtK()">K</a></h1></div>
+			<div id="L"><h1><a href="#EL" onclick="mostrarTxtL()">L</a></h1></div>
+			<div id="M"><h1><a href="#EM" onclick="mostrarTxtM()">M</a></h1></div>
+			<div id="N"><h1><a href="#EN" onclick="mostrarTxtN()">N</a></h1></div>
+			<div id="Ñ"><h1><a href="#EÑ" onclick="mostrarTxtÑ()">Ñ</a></h1></div>
+			<div id="O"><h1><a href="#EO" onclick="mostrarTxtO()">O</a></h1></div>
+			<div id="P"><h1><a href="#EP" onclick="mostrarTxtP()">P</a></h1></div>
+			<div id="Q"><h1><a href="#EQ" onclick="mostrarTxtQ()">Q</a></h1></div>
+			<div id="R"><h1><a href="#ER" onclick="mostrarTxtR()">R</a></h1></div>
+			<div id="S"><h1><a href="#ES" onclick="mostrarTxtS()">S</a></h1></div>
+			<div id="T"><h1><a href="#ET" onclick="mostrarTxtT()">T</a></h1></div>
+			<div id="U"><h1><a href="#EU" onclick="mostrarTxtU()">U</a></h1></div>
+			<div id="V"><h1><a href="#EV" onclick="mostrarTxtV()">V</a></h1></div>
+			<div id="W"><h1><a href="#EW" onclick="mostrarTxtW()">W</a></h1></div>
+			<div id="X"><h1><a href="#EX" onclick="mostrarTxtX()">X</a></h1></div>
+			<div id="Y"><h1><a href="#EY" onclick="mostrarTxtY()">Y</a></h1></div>
+			<div id="Z"><h1><a href="#EZ" onclick="mostrarTxtZ()">Z</a></h1></div>
+			<div id="DATOSJAVASCRIPT">
+				<h6>CONCURSANTE :</h6>
+				<script type="text/javascript">
+					document.write("<h6>"+ CONCURSANTE +"</h6>")
+					document.write("<h6>"+ NOMBREusuario +"</h6>")
+					document.write("<h6>"+ EDADusuario +"</h6>")
+					document.write("<h6>"+ DNIusuario +"</h6>")
+					document.write("<h6>"+ MAILusuario +"</h6>")
+				</script>
+			</div>
+			<!--A-->
+			<div id="EA" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EA" style="display: none;">Empresa mas relevante del 2022: comienza con la letra A</h1>
+					<p id="P1EA" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EA" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--B-->
+			<div id="EB" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EB" style="display: none;">Empresa mas relevante del 2022: comienza con la letra B</h1>
+					<p id="P1EB" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EB" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--C-->
+			<div id="EC" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EC" style="display: none;">Empresa mas relevante del 2022: comienza con la letra C</h1>
+					<p id="P1EC" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EC" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--D-->
+			<div id="ED" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1ED" style="display: none;">Empresa mas relevante del 2022: comienza con la letra D</h1>
+					<p id="P1ED" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2ED" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--E-->
+			<div id="EE" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EE" style="display: none;">Empresa mas relevante del 2022: comienza con la letra E</h1>
+					<p id="P1EE" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EE" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--F-->
+			<div id="EF" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EF" style="display: none;">Empresa mas relevante del 2022: comienza con la letra F</h1>
+					<p id="P1EF" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EF" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--G-->
+			<div id="EG" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EG" style="display: none;">Empresa mas relevante del 2022: comienza con la letra G</h1>
+					<p id="P1EG" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EG" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--H-->
+			<div id="EH" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EH" style="display: none;">Empresa mas relevante del 2022: comienza con la letra H</h1>
+					<p id="P1EH" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EH" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--I-->
+			<div id="EI" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EI" style="display: none;">Empresa mas relevante del 2022: comienza con la letra I</h1>
+					<p id="P1EI" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EI" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--J-->
+			<div id="EJ" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EJ" style="display: none;">Empresa mas relevante del 2022: comienza con la letra J</h1>
+					<p id="P1EJ" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EJ" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--K-->
+			<div id="EK" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EK" style="display: none;">Empresa mas relevante del 2022: comienza con la letra K</h1>
+					<p id="P1EK" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EK" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--L-->
+			<div id="EL" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EL" style="display: none;">Empresa mas relevante del 2022: comienza con la letra L</h1>
+					<p id="P1EL" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EL" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--M-->
+			<div id="EM" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EM" style="display: none;">Empresa mas relevante del 2022: comienza con la letra M</h1>
+					<p id="P1EM" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EM" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--N-->
+			<div id="EN" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EN" style="display: none;">Empresa mas relevante del 2022: comienza con la letra N</h1>
+					<p id="P1EN" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EN" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--Ñ-->
+			<div id="EÑ" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EÑ" style="display: none;">Empresa mas relevante del 2022: comienza con la letra Ñ</h1>
+					<p id="P1EÑ" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EÑ" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--O-->
+			<div id="EO" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EO" style="display: none;">Empresa mas relevante del 2022: comienza con la letra O</h1>
+					<p id="P1EO" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EO" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--P-->
+			<div id="EP" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EP" style="display: none;">Empresa mas relevante del 2022: comienza con la letra P</h1>
+					<p id="P1EP" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EP" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--Q-->
+			<div id="EQ" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EQ" style="display: none;">Empresa mas relevante del 2022: comienza con la letra Q</h1>
+					<p id="P1EQ" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EQ" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--R-->
+			<div id="ER" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1ER" style="display: none;">Empresa mas relevante del 2022: comienza con la letra R</h1>
+					<p id="P1ER" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2ER" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--S-->
+			<div id="ES" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1ES" style="display: none;">Empresa mas relevante del 2022: comienza con la letra S</h1>
+					<p id="P1ES" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2ES" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--T-->
+			<div id="ET" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1ET" style="display: none;">Empresa mas relevante del 2022: comienza con la letra T</h1>
+					<p id="P1ET" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2ET" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--U-->
+			<div id="EU" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EU" style="display: none;">Empresa mas relevante del 2022: comienza con la letra U</h1>
+					<p id="P1EU" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EU" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--V-->
+			<div id="EV" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EV" style="display: none;">Empresa mas relevante del 2022: comienza con la letra V</h1>
+					<p id="P1EV" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EV" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--W-->
+			<div id="EW" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EW" style="display: none;">Empresa mas relevante del 2022: comienza con la letra W</h1>
+					<p id="P1EW" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EW" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--X-->
+			<div id="EX" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EX" style="display: none;">Empresa mas relevante del 2022: comienza con la letra X</h1>
+					<p id="P1EX" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EX" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--Y-->
+			<div id="EY" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EY" style="display: none;">Empresa mas relevante del 2022: comienza con la letra Y</h1>
+					<p id="P1EY" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EY" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+			<!--Z-->
+			<div id="EZ" style="display: none;"><!--APARECE SOLO CON EL JAVASCRIPT-->
+					<h1 id="h1EZ" style="display: none;">Empresa mas relevante del 2022: comienza con la letra Z</h1>
+					<p id="P1EZ" style="display: none;">www.enlacealapaginaoficialdelaempresa.com(AGREGAR imagenes de contenido)</p>
+					<p id="P2EZ" style="display: none;"><a href="#seccion3" onclick="mostrarTODO()">cerrar</a></p>
+			</div>
+		</section>
+
+		<section id="seccion4"><!--SECCION NUEVA UNIDAD10-->
+			<div class="container-fluid px-4"> <!--ESTA ESTRUCTURA DE ADAPATARA AL SECCION4-->
+				<div class="row gx-4" id="row-bt"><!--GRID SISTEM DE BOTSTRAP--> 
+					<div class="col-sm-4 col-lg-4" id="col-bt1"><!--1ER CUADRADO DE LA GRILLA 1--></div>
+					<div class="col-sm-8 col-lg-8" id="col-bt2"><!--2DO CUADRADO DE LA GRILLA 1-->
+						<h1 id="1234">TECNOINNOVA TE INVITA YA SEAS EMPRESA O PRINCIPIANTE EMPRENDEDOR A LAS CHARLAS TEDX</h1>
+					</div>
+				</div>
+			</div>
+		<hr>
+			<div class="container-fluid px-4"> <!--ESTA ESTRUCTURA DE ADAPATARA AL SECCION4-->
+				<div class="row gx-4" id="row-bt2"><!--GRID SISTEM DE BOTSTRAP--> 
+					<div class="col-lg" id="col-bt12"><!--1ER CUADRADO DE LA GRILLA 2-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/1card.jpg" class="card-img-top" alt="..." class="ajustar" class="img-fluid">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">22-02-2023 E-comerce</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo del comercio online con SAM SUMMMER ceo de MERCADO LIBRE.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->
+					</div>
+					<div class="col-lg" id="col-bt22"><!--2DO CUADRADO DE LA GRILLA 2-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/2card.jpg" class="card-img-top" alt="...">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">04-04-2023 IT EN A NUBE</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de la inteligencia artificial y como guardar datos en a nube.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->
+					</div>
+					<div class="col-lg" id="col-bt32"><!--3ER CUADRADO DE LA GRILLA 2-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/3card.jpg" class="card-img-top" alt="..."class="ajustar" class="img-fluid">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">10-05-2023 ROBOTICA DE ABB</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de la robotica industrial.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->
+					</div>
+					<div class="col-lg" id="col-bt42"><!--4TO CUADRADO DE LA GRILLA 2-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/4card.jpg" class="card-img-top" alt="...">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">20-06-2023 DATOS EN LA NUBE</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de base de datos.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->
+					</div>
+				</div> <!--CIERRE GRID-->
+			</div> <!--CIERRE CONTAINER -->
+
+		<hr> <!--GENERO UNA LINEA DIVISORIA-->
+
+			<div class="container-fluid px-4"> <!--ESTA ESTRUCTURA DE ADAPATARA AL SECCION4-->
+				<div class="row gx-4" id="row-bt3"><!--GRID SISTEM DE BOTSTRAP--> 
+					<div class="col-lg" id="col-bt13"><!--1ER CUADRADO DE LA GRILLA 3-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/5card.jpg" class="card-img-top" alt="...">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">01-07-2023 PLATAFORMAS INTERACTIVAS</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de las plataformas de contenido online.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->
+					</div><!--CIERRE 1RA CUADRADO DE LA GRILLA-->
+					<div class="col-lg" id="col-bt23"><!--2DO CUADRADO DE LA GRILLA 3-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/6card.jpg" class="card-img-top" alt="...">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">17-08-2023 SEGURIDAD CIBERNETICA</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de la proteccion de datos.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->						
+					</div>
+					<div class="col-lg" id="col-bt33"><!--3ER CUADRADO DE LA GRILLA 3-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/7card.jpg" class="card-img-top" alt="...">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">02-09-2023 FREESHOPS</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de los comercios online.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->
+					</div>
+					<div class="col-lg" id="col-bt43"><!--4TO CUADRADO DE LA GRILLA 3-->
+						   <!--CARD-->
+							<div class="card" style="width: 100%" >
+ 								 <img src="imagenes/8card.jpg" class="card-img-top" alt="...">
+  								<div class="card-body" id="card1">
+   								 <h5 class="card-title">18-10-2023 UTILIDADES DE LA NUBE</h5>
+   								 <p class="card-text">Como iniciar tu empresa en este mundo de las utilidades aplicables a la industria.</p>
+    								<a href="#" class="btn btn-primary">QUIERO MI ENTRADA</a>
+  								</div>
+							</div><!--FIN CARD-->						
+					</div>
+				</div><!--CIERRE GRID-->
+			</div><!--CIERRE CONTAINER-->
+
+			<div id=FORMULARIO>
+				<h1>TEDx PARA PYMES</h1>
+				<p>Si eres un PYME puedes asistir a nuestras capacitaciones financieras y de tecnologias aplicadas al comercio totalmente gratuitas</p>
+				<h6>Dejanos tu contacto te enviaremos el pase para estas presentaciones</h6>
+				<form>
+					<input type="text" placeholder="NOMBRE EMPRESA*">
+					<input type="email" placeholder="Correo Electronico*">
+					<input type="date">
+				<input type="submit" name="ENVIAR">
+				</form>
+			</div>
+
+		</section>
+
+		<footer id="contacto">
+			<div id="REDESSOCIALES">
+				<div id="instagram"></div>
+				<div id="facebook"></div>
+				<div id="twuitter"></div>
+			</div>
+			<div id="GMAIL">
+				<div id="contac">
+					<p>Copyright  © 2022 - TECNOINNOVA 
+						DEJANOS TU CONSULTA :
+						tecnoinnova@official.gmail.com</p>
+				</div>
+			</div>
+		</footer>
+		<script src="js/unidad9.js"></script>
+
+</body>
+</html>
