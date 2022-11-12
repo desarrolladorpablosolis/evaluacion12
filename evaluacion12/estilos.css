@@ -1,0 +1,682 @@
+html,body{margin: 0;
+scroll-behavior: smooth;
+ }
+
+header, section, footer{     	 
+	width: 960px;					
+	margin-left:auto;
+	margin-right:auto;
+}
+/*-----------------------------------------INICIO------------------------------------*/
+#inicio{height: 425px;
+background-color:blue;
+background-image: url(imagenes/imagen0.png);/* coloco una imagen como fondo */
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/}
+
+/*-----------------------------------------HEADER------------------------------------*/
+header{
+	height: 170px;
+	background-image: url(imagenes/imagen7.jpg);/* coloco una imagen como fondo */
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center ;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+	position: sticky;/* logramos que la caja quede fija durante el scrool*/
+    top: 0px; /* posicion donde queremos que quede fija*/
+    z-index: 1000;
+}
+
+#direccion{
+width: 120px;
+height: 50px;
+float: left;
+margin-top: 15px;
+margin-right: 70px;
+margin-left: 20px;
+}
+					header div p{font-family: sans-serif;
+									font-size: 10px;
+					   				color: white;
+					   				padding: 10px;
+					   				box-sizing: border-box;}
+#logo{
+width: 120px;
+height: 120px;
+float: left;
+margin:10px;
+background-image: url(imagenes/logo.png);/* coloco una imagen como fondo */
+background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+background-position :center ;/*ubico la imagen de fondo en el centro*/
+background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+box-sizing: border-box;  /* coloca un margen interno los bordes se van hacia dentro*/
+border: 5px solid yellow; -moz-border-radius: 7px;
+-webkit-border-radius: 7px; padding: 10px;
+box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+}
+#idioma{
+		border: 5px solid white; -moz-border-radius: 7px;
+		-webkit-border-radius: 7px; padding: 10px;
+        width: auto;
+		height: auto;
+		float: right;
+		margin: 20px;
+}
+		header div h1{  font-family: sans-serif;
+						font-size: 12px;
+		   				color: white;
+		   				padding-bottom: 10px
+		   				box-sizing: border-box;}
+#botonera{
+width: 900px;
+height: 45px;
+margin-left: 30px;
+margin-right: 30px;
+clear: left;
+}
+			#botonera ul li a:hover{
+				background-color: #dcde26;
+			}
+			#botonera ul{
+			margin-top: 0;
+			padding: 0;
+			list-style-type: none;
+			display: flex;
+			justify-content: space-around;
+			}
+
+			#botonera ul li{
+			flex-grow: 1;
+			text-align: center;
+			}
+
+			#botonera ul li a{
+			display: block;
+			text-decoration: none;
+			background-color: black;
+			margin-top: 0px;
+			color: white;
+			font-family: arial black;
+			}
+/*---------------------------------------SECCION 1---------------------------------------*/
+#seccion1{
+	height: 1000px;
+	padding-top: 150px;
+	background-image: url(imagenes/imagen8.jpg);/* coloco una imagen como fondo */
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+}
+#cajainterna_1{
+width: 600px;
+height: 150px;
+background-color: black;
+float: left;
+margin-left: 150px;
+margin-right: 30px;
+margin-top: 25px;
+padding: 5px;/*margen interno para el texto no sobre salga del cuadro*/
+box-sizing: border-box; /* coloca un margen interno los bordes se van hacia dentro*/
+border: 2px solid white; -moz-border-radius: 7px;
+}
+				
+				#cajainterna_1 p,h1{
+				color: white;
+				font-family: 'Zen Dots', cursiva;
+				font-size: 17px;
+				text-align: center;
+				}
+#cajainterna_2{
+width: 250px;
+height: 500px;
+background-color: red;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#65b6cf), to(#2c2c2c));
+float: left;
+margin-top: 20px;
+margin-left: 125px;
+margin-right: 210px;
+padding: 10px;/*margen interno para el texto no sobre salga del cuadro*/
+box-sizing: border-box;  /* coloca un margen interno los bordes se van hacia dentro*/
+border: 5px solid white; -moz-border-radius: 7px;
+-webkit-border-radius: 7px; padding: 10px;
+}
+			#cajainterna_2 h1,p{
+				color: white;
+				font-family: 'Zen Dots', cursiva;
+				font-size: 0.8em;
+				text-align: center;
+			}
+#cajainterna_3{
+width: 250px;
+height: 500px;
+background-color: red;
+float: left;
+margin-top: 20px;
+margin-right: 125px;
+padding: 10px;/*margen interno para el texto no sobre salga del cuadro*/
+box-sizing: border-box; /* coloca un margen interno los bordes se van hacia dentro*/
+border: 5px solid white; -moz-border-radius: 7px;
+-webkit-border-radius: 7px; padding: 10px;
+}
+			#cajainterna_3 h1,p{
+				color: white;
+				font-family: 'Zen Dots', cursiva;
+				font-size: 0.8em;
+				text-align: center;
+			}
+/*-----------------------------------------SECCION2------------------------------------*/
+
+#seccion2{
+	height: 800px;
+	background-color:blue;
+	padding-top: 120px;
+	padding-bottom: 10px;
+    background-image: url(imagenes/FONDOCONTENEDOR.jpg);/* coloco una imagen como fondo */
+    background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+
+}
+
+#contenedor1 {
+width: 80%;
+height: 70%;
+background-color: red;
+clear: left;
+margin-left: 10%;
+margin-right: 10%;
+background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+background-position :center;/*ubico la imagen de fondo en el centro*/
+background-size: cover;/*ocupamos toda la imagen en el contenedor*/}/*corregido*/
+
+#contenedor1 h5{
+	color:red;
+	font-family: Arial black;
+	font-size: 30px;
+}
+#contenedor1 p{
+	color: white;
+	font-size: 20px;
+}
+
+#contenedor1 a{
+	color: blue;
+	font-family: Arial black;
+	font-size: 30px;
+}
+
+.bgtransparente{background-color: rgba(0,0,0,0.5);}
+
+/*-----------------------------------------SECCION3------------------------------------*/
+#seccion3{
+	height: 1000px;
+	background-color:red;
+	padding-top: 200px;/*dejo margen interno en la parte superior*/
+	padding-bottom: 200px; /*dejo margen interno en la parte inferior*/
+
+	background-image: url(imagenes/seccion3.jpg);/* coloco una imagen como fondo */
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center ;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+}
+
+
+#titulo{width: 380px; height: 70px; background-color: orange; float: left;margin-top: 5px;margin-left: 60px;}
+#A{width: 50px; height: 50px; background-color: orange; float: left;clear: left;margin-top: 50px;margin-left: 60px;}
+ #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N,#Ñ, #O, #P, #Q, #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
+	width: 50px; height: 50px; background-color: orange; float: left; margin-top: 50px;margin-left: 60px;
+}/*corregido*/
+
+
+#DATOSJAVASCRIPT{
+	width: 300px;
+	height: auto;
+	clear: left;
+	float: left;
+	margin: 20px;
+	background-color:white;
+	padding: 5px;
+	margin-left: 60px;
+}
+
+#DATOSJAVASCRIPT h3{
+	color:red;
+}
+
+#EA,#EB,#EC,#ED,#EE,#EF,#EG,#EH,#EI,#EJ,#EK,#EL,#EM,#EN,#EÑ,#EO,#EP,#EQ,#ER,#ES,#ET,#EU,#EV,#EW,#EX,#EY,#EZ {
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+width: auto; 
+height: 300px; 
+background-color: white;
+clear: left; 
+padding: auto;
+}
+#EA,#EB,#EC,#ED,#EE,#EF,#EG,#EH,#EI,#EJ,#EK,#EL,#EM,#EN,#EÑ,#EO,#EP,#EQ,#ER,#ES,#ET,#EU,#EV,#EW,#EX,#EY,#EZ, h1 {font-size: 20px; text-align: center; color: black;padding: 5px;}
+#EA,#EB,#EC,#ED,#EE,#EF,#EG,#EH,#EI,#EJ,#EK,#EL,#EM,#EN,#EÑ,#EO,#EP,#EQ,#ER,#ES,#ET,#EU,#EV,#EW,#EX,#EY,#EZ, p {font-size: 20px; text-align: center; color: black;padding: 5px;}
+
+/*-------------------------------SECCION4(UNIDAD10)------------------------------------*/
+#seccion4{
+	height: 1500px;
+	background-color:green;
+	padding-top: 230px;/*dejo margen interno en la parte superior*/
+	padding-bottom: 20px; /*dejo margen interno en la parte inferior*/
+	background-image: url(imagenes/charlas.jpg);/* coloco una imagen como fondo */ 
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+}
+#row-bt{height: 200px;
+		background-color:yellow;}
+
+#col-bt1{
+		background-color:black;
+		background-image: url(imagenes/TEDX.jpg);/* coloco una imagen como fondo */ 
+		background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	    background-position :center;/*ubico la imagen de fondo en el centro*/
+	    background-size: cover;/*ocupamos toda la imagen en el contenedor*/}
+#col-bt2{
+		background-color:red;}
+
+#col-bt2 h1{
+		margin:5%;
+		font-size: 20px; 
+	   text-align: center; 
+	   color: white;
+	   padding: 5px;
+	   font-family: arial black;}	
+
+
+#row-bt2{height: 300px;
+		background-color: rgba(0,0,0,0.5);}
+#col-bt12{
+		background-color: rgba(0,0,0,0.5);}
+#col-bt22{
+		background-color: rgba(0,0,0,0.5);}
+#col-bt32{
+		background-color: rgba(0,0,0,0.5);}
+#col-bt42{
+		background-color: rgba(0,0,0,0.5);}
+
+
+#row-bt3{height: 300px;
+		background-color: rgba(0,0,0,0.5);}
+#col-bt13{
+		background-color: rgba(0,0,0,0.5);}
+#col-bt23{
+		background-color: rgba(0,0,0,0.5);}
+#col-bt33{
+		background-color: rgba(0,0,0,0.5);}
+#col-bt43{
+		background-color: rgba(0,0,0,0.5);}
+
+#FORMULARIO{
+	    margin: 2%;
+		padding: 20px;
+		height: 300px;
+		float:left;
+		background-color: rgba(0,0,0,0.5);
+}
+#FORMULARIO h1 {color:white;}
+#FORMULARIO h6 {color:white;}
+#FORMULARIO p {color:white;}
+
+#card1 h5 {font-size: x-small;
+text-align: center;}
+
+#card1 p {font-size: x-small;
+text-align: center;}
+
+#card1 a {font-size: x-small;
+text-align: center;}
+
+.ajustar{	
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center ;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+	position: sticky;/* logramos que la caja quede fija durante el scrool*/
+    top: 0px; /* posicion donde queremos que quede fija*/}
+/*-----------------------------------------FOOTER--------------------------------------*/
+footer{
+	height: 120px;
+	background-color:black;}
+#REDESSOCIALES{
+width: 250px;
+height: 80px;
+clear: left;
+float: left;
+margin-top: 5px;
+}
+
+#instagram{
+	height: 50px;
+	width: 50px;
+	background-image: url(imagenes/instagram.png);
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+	margin: 5px;
+	float: left;
+	border: 3px solid black; -moz-border-radius: 5px;
+	-webkit-border-radius: 5px; padding: 8px;
+	}
+#facebook{
+	height: 50px;
+	width: 50px;
+	background-image: url(imagenes/facebook.png);/* coloco una imagen como fondo */
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+	margin: 5px;
+	float: left;
+	border: 3px solid black; -moz-border-radius: 5px;
+	-webkit-border-radius: 5px; padding: 8px;
+}
+#twuitter{
+	height: 50px;
+	width: 50px;
+	background-image: url(imagenes/twuitter.png);/* coloco una imagen como fondo */
+	background-repeat: no-repeat;/*no repetimos la imagen por si es chica*/
+	background-position :center;/*ubico la imagen de fondo en el centro*/
+	background-size: cover;/*ocupamos toda la imagen en el contenedor*/
+	margin: 5px;
+	float: left;
+	border: 3px solid black; -moz-border-radius: 5px;
+	-webkit-border-radius: 5px; padding: 8px;
+}
+#GMAIL{
+width: 300px;
+height: 75px;
+float: right;
+margin-top: 5px;
+}
+#GMAIL div p{
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+}
+
+
+/*--------------------------------------------@media 1-----------------------------------------------------------------------------*/
+@media all and (min-width: 600px) and (max-width: 1023px){
+			 	
+		header, section, footer {     	 
+			width: 580px;	/*uso el valor minimo para la pantalla*/				
+		}
+		header{
+		height: 180px;
+	    }
+/*----------------------------header------------------------*/
+
+		#logo{
+		width: 110px;
+		height: 110px;
+		}
+		#idioma{
+		border: 3px solid white; -moz-border-radius: 5px;
+}
+		#botonera{
+		width: 560px;
+		height: 45px;
+		margin-left: 10px;
+		margin-right: 30px;
+		clear: left;
+		}
+/*----------------------seccion1--------------------------*/
+		#cajainterna_1{
+		width: 560px;
+		height: 170px;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 35px;
+		}
+		#cajainterna_2{
+		width: 200px;
+		margin-left: 50px;
+		margin-right: 80px;
+		}
+		#cajainterna_3{
+		width: 200px;
+		margin-right: 50px;
+		}
+/*-----------------------seccion2-------------------------*/
+
+		#cajainterna_4,#cajainterna_5,#cajainterna_6,#cajainterna_7,#cajainterna_8,#cajainterna_9,#cajainterna_10,#cajainterna_11,#cajainterna_12{
+		width: 150px;
+		height: 100px;
+		margin-left: 30px;
+		margin-right: 5px;
+		margin-top: 5px;
+		}/*corregido*/
+
+/*-----------------------seccion3-------------------------*/
+		#titulo{width: 300px; 
+				height: 50px; }
+		#A{
+			margin-top: 20px;
+			margin-left: 30px;}
+		 #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N,#Ñ, #O, #P, #Q, #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
+			
+			margin-top: 20px;
+			margin-left: 30px;
+		}/*corregido*/
+
+/*-----------------------seccion4-------------------------*/
+
+
+		#seccion4{
+			height: auto;
+		}
+		#row-bt2{height: 300px;}
+		#row-bt3{height: 300px;}
+
+
+/*-----------------------FOOTER---------------------------*/
+		#GMAIL{
+		float: right;
+		margin-top: 3px;
+		}
+		#GMAIL p{font-size: 15px; text-align: center; color: white;padding: 5px;}
+/*----------------------------------------------------*/
+		#inicio{
+			height: auto;
+		}
+		#seccion2{
+			height: 800px;
+		}
+		#seccion3{
+			height: 1000px;
+		}
+/*----------------------------------------------------*/
+		footer{
+			height: 80px;}
+
+		#instagram{
+			height: 30px;
+			width: 30px;
+			margin: 3px;
+			}
+		#facebook{
+			height: 30px;
+			width: 30px;
+			margin: 3px;
+			}
+		#twuitter{
+			height: 30px;
+			width: 30px;
+			margin: 3px;
+			}
+}
+/*---------------------------------------------------MEDIA 2----------------------------------------------------------------------*/
+@media all and (max-width: 599px) {
+			
+header, section, footer{     	 
+	width: 95%;  /*dejo un margen en la pantalla*/
+}
+/*-----------------------------------------INICIO------------------------------------*/
+#inicio{height: 250px;}
+
+/*-----------------------------------------HEADER------------------------------------*/
+header{
+	height: auto;
+	position: relative;
+	top: 0px; /* posicion donde queremos que quede fija*/
+}
+
+#direccion{
+margin-top: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+#logo{
+width: 120px;
+height: 120px;
+
+display: flex;
+justify-content: center;
+}
+#idioma{
+border: 3px solid white; -moz-border-radius: 5px;
+}
+
+
+#botonera{
+width: 100%;
+height: 45px;
+margin-left: auto;
+margin-right: auto;
+}
+			#botonera ul{
+			display: block;
+			}
+			#botonera ul li a{
+			padding: auto;
+			}
+/*---------------------------------------SECCION 1---------------------------------------*/
+#seccion1{
+	height: auto;
+	padding-bottom: 10px;
+
+	}
+#cajainterna_1{
+width: auto;
+height: auto;
+margin: 5px;
+float: none;
+}
+				
+				#cajainterna_1 p,h1{
+				font-size: auto;
+				}
+#cajainterna_2{
+margin: 5px;
+width: auto;
+height: auto;
+float: none;
+
+}
+#cajainterna_3{
+margin: 5px;
+width: auto;
+height: auto;
+float: none;
+}
+/*-----------------------------------------SECCION2------------------------------------*/
+
+#seccion2{
+	height: auto;
+	padding-bottom:  10px;
+	padding-top: 10px;
+}
+
+#cajainterna_4,#cajainterna_5,#cajainterna_6,#cajainterna_7,#cajainterna_8,#cajainterna_9,#cajainterna_10,#cajainterna_11,#cajainterna_12{
+width: 75%;
+height: 50px;
+float: none;
+margin-left: 55px;
+margin-right: 55px;
+}/*corregido*/
+
+
+/*-----------------------------------------SECCION3------------------------------------*/
+#seccion3{
+	height: 600px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+#titulo{
+	width: 260px; 
+	height: 50px; 
+	float: left;
+	margin-top: 5px;
+	margin-left: 60px;}
+#A{
+	width: 40px; 
+	height: 40px; 
+	float: left;
+	clear: left;
+	margin-top: 30px;
+	margin-left: 40px;}
+ #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M, #N,#Ñ, #O, #P, #Q, #R, #S, #T, #U, #V, #W, #X, #Y, #Z {
+	width: 40px;
+	height: 40px; 
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}/*corregido*/
+
+/*--------------------------------------SECCION4---------------------------------------*/
+
+/*#row-bt{height: 300px;}*/
+#seccion4{
+	height: auto;
+}
+#row-bt2{height: 300px;}
+#row-bt3{height: 300px;}
+
+
+
+/*-----------------------------------------FOOTER--------------------------------------*/
+footer{
+	height: 80px;
+}
+#REDESSOCIALES{
+width: 250px;
+height: 80px;
+margin-top: 10px;
+}
+
+#instagram{
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+	float: left;
+	}
+#facebook{
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+	float: left;
+}
+#twuitter{
+	height: 20px;
+	width: 20px;
+	margin: 5px;
+	float: left;
+}
+#GMAIL{
+width: 200px;
+height: 60px;
+margin-right: 2px;
+}
+#GMAIL div p{
+	font-size: 11px;
+}		
+
+
+}/*MEDIA 2*/
